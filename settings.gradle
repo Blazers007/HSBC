@@ -1,0 +1,38 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Githubapp"
+include ':app'
+include ':tool_imageloader'
+include ':tool_network'
+include ':base_common'
+include ':base_model'
+include ':base_constants'
+include ':feature_search'
+include ':feature_profile'
+include ':feature_login'
+include ':feature_home'
+
+project(":feature_search").projectDir = new File("./layer_features/feature_search")
+project(":feature_login").projectDir = new File("./layer_features/feature_login")
+project(":feature_profile").projectDir = new File("./layer_features/feature_profile")
+project(":feature_home").projectDir = new File("./layer_features/feature_home")
+
+project(":tool_imageloader").projectDir = new File("./layer_tools/tool_imageloader")
+project(":tool_network").projectDir = new File("./layer_tools/tool_network")
+
+project(":base_model").projectDir = new File("./layer_base/base_model")
+project(":base_constants").projectDir = new File("./layer_base/base_constants")
+project(":base_common").projectDir = new File("./layer_base/base_common")
+

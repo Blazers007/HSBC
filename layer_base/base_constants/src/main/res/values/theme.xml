@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="GHTitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gh_title</item>
+    </style>
+
+    <style name="GHSubtitle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gh_subtitle</item>
+        <item name="android:textColorHint">@color/gh_subtitle</item>
+    </style>
+
+    <style name="GHAnnotation">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gh_annotation</item>
+    </style>
+
+    <style name="GHAnnotationSmall">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/gh_annotation_small</item>
+    </style>
+
+</resources>
