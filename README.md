@@ -5,7 +5,7 @@
 - App Module (Shell)
 - Feature Modules -> folder: layer_features 
   - Home: Integrated search & login
-  - Search: Enter keywords to search repos
+  - Search: Enter keywords to search repos, auto record query history
   - Profile: Receive username to show profile(Avatar / Nick etc.)
   - Login: !Not Complete! Github doesn't support simple username / password login
 - Base Modules -> folder: layer_base
