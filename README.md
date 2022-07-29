@@ -15,6 +15,24 @@
 - Tools Modules -> folder: layer_tools
   - ImageLoader: support Picasso / Glide
   - Network: Using OKHTTP and expose Retrofit dependency
+  
+
+#### Using Libs / Frameworks
+
+- Jetpack
+  - Room
+  - ViewModel
+  - Paging
+  - Security
+- Kotlin
+  - Flow & Coroutine
+- [OKHTTP](https://github.com/square/okhttp)
+- [Retrofit](https://github.com/square/retrofit)
+- [Moshi](https://github.com/square/moshi)
+- [Picasso](https://github.com/square/picasso)
+- [Glide](https://github.com/bumptech/glide)
+- [RoundedImageView](https://github.com/vinc3m1/RoundedImageView)
+- [Flexbox-Layout](https://github.com/google/flexbox-layout)
 
 #### Screenshots
 
